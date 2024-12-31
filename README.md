@@ -10,7 +10,7 @@ This is computer vision project that aims to detect the road lane lines which is
 - For Linux.
   `source venv/bin/activate`
 - For Windows
-  `source venv/Scripts/activate`
+  `source venv\Scripts\activate`
 
 - Run the _requirements.txt_ file to download all dependencies needed to run the program
   `pip install -r requirements.txt`
@@ -21,4 +21,3 @@ This is computer vision project that aims to detect the road lane lines which is
   `chmod +x check.py`
   then
   `./check.py`
-
