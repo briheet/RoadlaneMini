@@ -40,7 +40,7 @@ def display_lines(image, lines):
     image = cv2.addWeighted(image, 0.8, blank_image, 1, 0)
     return image
 
-cap = cv2.VideoCapture(r'Dataset/Extra2.mp4')
+cap = cv2.VideoCapture(r'Dataset/Sample.mp4')
 
 while (cap.isOpened()):
     _, frame = cap.read()
